@@ -124,7 +124,6 @@ body {
   color: white;
   text-align: center;
   padding: 8px;
-  margin-top: auto;
   border-radius: 4px;
   text-decoration: none;
 }
@@ -319,7 +318,7 @@ body {
   .buy-btn {
     font-size: 12px;
     padding: 6px;
-    margin-top: auto;
+    
     
   }
 
