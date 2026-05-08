@@ -235,3 +235,116 @@ main {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sidebar {
+    width: 220px;
+  }
+
+}
+
+/* =========================
+   CELULAR
+========================= */
+@media (max-width: 768px) {
+
+  /* Layout principal */
+  .container {
+    flex-direction: column;
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid #ffefc5;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* Header */
+  .header {
+    padding: 8px;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 45px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  /* Grid produtos */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  /* Card */
+  .card {
+    padding: 8px;
+  }
+
+  .card img {
+    max-height: 150px;
+    object-fit: contain;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .buy-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  /* Categorias */
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+/* =========================
+   CELULAR PEQUENO
+========================= */
+@media (max-width: 480px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
