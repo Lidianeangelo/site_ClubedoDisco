@@ -135,6 +135,7 @@ body {
 
 .buy-btn:hover {
   background: #2968c8;
+  transition: 0.2s;
 }
 
 /* PAGINAÇÃO */
