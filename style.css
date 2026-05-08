@@ -380,7 +380,7 @@ body {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    padding: 6px 6px;
+    padding: 6px 6px 6px;
   }
 
   /* cards */
