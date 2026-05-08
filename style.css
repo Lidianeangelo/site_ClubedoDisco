@@ -348,3 +348,69 @@ main {
   }
 
 }
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+
+  /* layout principal */
+  .container {
+    flex-direction: column;
+  }
+
+  /* sidebar */
+  .sidebar {
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 2px solid #ffefc5;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  /* produtos */
+  main {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* grid */
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  /* cards */
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+  }
+
+  /* categorias */
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* header */
+  .header {
+    padding: 8px;
+  }
+
+  .logo {
+    height: 45px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+}
