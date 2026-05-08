@@ -370,16 +370,14 @@ main {
   }
 
   /* produtos */
-  main {
-    width: 100%;
+   main {
     padding: 10px;
-    box-sizing: border-box;
   }
-
-  /* grid */
+  /*grid*/
   .grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 12px;
+    padding: 5px;
   }
 
   /* cards */
