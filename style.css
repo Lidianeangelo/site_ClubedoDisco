@@ -65,17 +65,20 @@ body {
   color: white;
 }
 
-/* PRODUTOS */
-main {
-  flex: 1;
-  padding: 10px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 20px;
-}
+/* produtos */
+   main {
+    flex:1;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  /*grid*/
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
 
 /* CARD */
 .card {
@@ -372,12 +375,12 @@ main {
   /* produtos */
    main {
     padding: 10px;
+    
   }
   /*grid*/
   .grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
-    padding: 5px;
+    padding: 0 8px;    
   }
 
   /* cards */
