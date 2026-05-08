@@ -87,7 +87,6 @@ body {
   border-radius: 6px;
   display: flex;
   flex-direction: column;
-  height: 100%;
   min-height: 320px;
   justify-content: space-between;
 }
@@ -302,7 +301,6 @@ body {
   /* Card */
   .card {
     padding: 26px;
-    justify-content: space-between;
   }
 
   .card img {
